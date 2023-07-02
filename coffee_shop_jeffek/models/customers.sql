@@ -1,3 +1,5 @@
+{{ config(materialized='table') }}
+
 select 
 distinct(o.customer_id), 
 c.name, 
