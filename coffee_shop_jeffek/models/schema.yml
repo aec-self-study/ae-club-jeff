@@ -19,3 +19,12 @@ models:
         tests:
           - unique
           - not_null
+
+  - name: customers_v2
+    description: "A dbt model that uses ref, I guess?"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
