@@ -11,8 +11,8 @@ models:
           - unique
           - not_null
 
-  - name: my_second_dbt_model
-    description: "A starter dbt model"
+  - name: customers
+    description: "A starter dbt model for jeff"
     columns:
       - name: id
         description: "The primary key for this table"
